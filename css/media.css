@@ -1,0 +1,508 @@
+/* EXTRA SMALL DEVICES (PORTRAIT PHONE, less than 576px) */
+@media (max-width: 575.98px) {
+  /* NAVIGATION-BAR STRT */
+  .navbar {
+    padding: 15px 16px;
+  }
+  .nav_logo a {
+    font-size: 28px !important;
+  }
+  ul li {
+    margin: auto;
+    padding-right: 0 !important;
+    padding-bottom: 20px !important;
+  }
+  .navbar_btn {
+    display: flex;
+    justify-content: center;
+  }
+  /* NAVIGATION-BAR END */
+
+  /* BANNER STRT */
+  .carousel-inner {
+    height: 500px;
+  }
+  .carousel-indicators {
+    width: 60% !important;
+    left: 20px !important;
+    bottom: 0 !important;
+    transform: rotate(0deg);
+  }
+  .carousel-caption-1 {
+    padding: 0 !important;
+  }
+  .carousel-caption-1 h1 {
+    padding-right: 0 !important;
+  }
+  .carousel-caption {
+    /*it is for slider 2*/
+    margin-left: -30px !important;
+    padding: 10px 0 5px !important;
+  }
+  .carousel-caption h1 {
+    font-size: 20px;
+  }
+  .carousel-caption p {
+    padding: 10px 0 5px !important;
+    text-align: left;
+    line-height: 19px;
+  }
+  .carousel-caption-3 {
+    padding: 0 !important;
+  }
+  .carousel-caption-3 p {
+    padding-right: 0 !important;
+    padding-bottom: 10px !important;
+  }
+  .slider-btn {
+    margin-bottom: 40px;
+  }
+  /* BANNER END */
+
+  /* ABOUT US STRT */
+  .sub-head ::after {
+    left: 130px;
+  }
+  .abut-txt .sub-head {
+    padding-top: 30px;
+  }
+  /* ABOUT US END */
+
+  /* SERVICE STRT */
+  .service {
+    padding-bottom: 0;
+  }
+  .common-heading {
+    padding: 50px 0 30px;
+  }
+  .service-sec {
+    margin-bottom: 40px;
+  }
+  .service-img img {
+    height: 290px !important;
+  }
+  .service-sec h5 {
+    font-size: 18px;
+  }
+  .sub-head-2 ::after {
+    width: 240px;
+    left: 5px;
+  }
+  .sub-head-3 ::after {
+    width: 280px;
+    left: 5px;
+  }
+  .sub-head-4 ::after {
+    width: 210px;
+    left: 5px;
+  }
+  /* SERVICE END */
+
+  /* TESTIMONIAL STRT */
+  .testimonial {
+    padding-bottom: 0px !important;
+  }
+  .testimonial-section {
+    padding: 20px 20px !important;
+  }
+  .sub-head ::after {
+    left: -10px !important;
+  }
+  .content {
+    padding: 30px 0;
+  }
+  /* TESTIMONIAL END */
+
+  /* CONTACT US STRT */
+  .contact-col {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-bottom: 1px solid #2e3341;
+  }
+  /* CONTACT US end */
+
+  /* FOOTER STRT */
+  .footer-left {
+    padding-bottom: 30px;
+    text-align: justify;
+  }
+  .footer-left p {
+    padding-right: 0 !important;
+  }
+  ul li {
+    padding-right: 60px;
+    padding-bottom: 0;
+  }
+  /* FOOTER END */
+}
+
+/* SMALL DEVICES (LANSCAPE PHONE, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* NAVIGATION-BAR STRT */
+  .nav_logo a {
+    font-size: 32px !important;
+  }
+  ul li {
+    margin: auto;
+    padding-right: 0 !important;
+    padding-bottom: 20px !important;
+  }
+  .navbar_btn {
+    display: flex;
+    justify-content: center;
+  }
+  /* NAVIGATION-BAR END */
+
+  /* BANNER STRT */
+  .carousel-inner {
+    height: 500px;
+  }
+  .carousel-indicators {
+    left: 330px !important;
+    bottom: 15px !important;
+    transform: rotate(0deg);
+  }
+  .carousel-caption-1 {
+    padding: 0 !important;
+  }
+  .carousel-caption-1 h1 {
+    padding-right: 0 !important;
+  }
+  .carousel-caption {
+    /*it is for slider 2*/
+    margin-left: -65px !important;
+    padding: 0 !important;
+  }
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .carousel-caption-3 {
+    padding: 0 !important;
+  }
+  .carousel-caption-3 p {
+    padding-right: 0 !important;
+  }
+  /* BANNER END */
+
+  /* ABOUT US STRT */
+  .sub-head ::after {
+    left: 140px;
+  }
+  .abut-txt .sub-head {
+    padding-top: 30px;
+  }
+  /* ABOUT US END */
+
+  /* SERVICE STRT */
+  .service {
+    padding-bottom: 40px;
+  }
+  .common-heading {
+    padding: 70px 0 50px;
+  }
+  .service-sec {
+    margin-bottom: 40px;
+  }
+  .service-img img {
+    height: 500px;
+  }
+  .service-sec h5 {
+    font-size: 30px;
+  }
+  .sub-head-2 ::after {
+    width: 390px;
+    left: 5px;
+  }
+  .sub-head-3 ::after {
+    width: 460px;
+    left: 5px;
+  }
+  .sub-head-4 ::after {
+    width: 340px;
+    left: 5px;
+  }
+  /* SERVICE END */
+
+  /* TESTIMONIAL STRT */
+  .testimonial {
+    padding-bottom: 20px;
+  }
+  .testimonial-section {
+    padding: 20px 0 !important;
+  }
+  .content {
+    padding: 30px 0;
+  }
+  /* TESTIMONIAL END */
+
+  /* CONTACT US STRT */
+  .contact-col {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-bottom: 1px solid #2e3341;
+  }
+  /* CONTACT US end */
+
+  /* FOOTER STRT */
+  .footer-left {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  ul li {
+    padding-right: 60px;
+    padding-bottom: 0;
+  }
+  /* FOOTER END */
+}
+
+/* MEDIUM DEVICES (TABLETS, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* NAVIGATION-BAR STRT */
+  ul li {
+    margin: auto;
+    padding-right: 0 !important;
+    padding-bottom: 20px !important;
+  }
+  .navbar_btn {
+    display: flex;
+    justify-content: center;
+  }
+  /* NAVIGATION-BAR END */
+
+  /* BANNER STRT */
+  .carousel-inner {
+    height: 500px;
+  }
+  .carousel-indicators {
+    left: 460px !important;
+    bottom: 15px !important;
+    transform: rotate(0deg);
+  }
+  .carousel-caption-1 {
+    padding: 0 !important;
+  }
+  .carousel-caption-1 h1 {
+    padding-right: 0 !important;
+  }
+  .carousel-caption {
+    /*it is for slider 2*/
+    margin-left: -90px !important;
+    padding: 0 !important;
+  }
+  .carousel-caption h1 {
+    font-size: 40px;
+  }
+  .carousel-caption-3 {
+    padding: 0 !important;
+  }
+  .carousel-caption-3 p {
+    padding-right: 0 !important;
+  }
+  /* BANNER END */
+
+  /* ABOUT US STRT */
+  .sub-head ::after {
+    left: 145px;
+  }
+  /* ABOUT US END */
+
+  /* SERVICE STRT */
+  .service {
+    padding-bottom: 60px;
+  }
+  .common-heading {
+    padding: 80px 0 60px;
+  }
+  .service-sec {
+    margin-bottom: 40px;
+  }
+  .service-img img {
+    height: 500px;
+  }
+  .sub-head-2 ::after {
+    width: 500px;
+    left: 5px;
+  }
+  .service-sec h5 {
+    font-size: 38px;
+  }
+  .sub-head-3 ::after {
+    width: 580px;
+    left: 5px;
+  }
+  .sub-head-4 ::after {
+    width: 430px;
+    left: 5px;
+  }
+  /* SERVICE END */
+
+  /* TESTIMONIAL STRT */
+  .testimonial {
+    padding-bottom: 40px;
+  }
+  .testimonial-section {
+    padding: 20px 80px !important;
+  }
+  .content {
+    padding: 30px 0;
+  }
+  /* TESTIMONIAL END */
+
+  /* CONTACT US STRT */
+  .contact-col {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-bottom: 1px solid #2e3341;
+  }
+  /* CONTACT US end */
+
+  /* FOOTER STRT */
+  .footer-left {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  ul li {
+    padding-right: 60px;
+    padding-bottom: 0;
+  }
+  /* FOOTER END */
+}
+
+/* LARGE DEVICES (DESKTOPS, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* NAVIGATION-BAR STRT */
+  .nav_logo a {
+    font-size: 32px !important;
+  }
+  ul li {
+    padding-right: 30px;
+  }
+  /* NAVIGATION-BAR END */
+
+  /* BANNER STRT */
+  .carousel-inner {
+    height: 500px;
+  }
+  .carousel-indicators {
+    left: 710px !important;
+    bottom: 110px !important;
+  }
+  .carousel-caption {
+    padding: 0 0 40px 50px;
+    margin-left: -120px;
+  }
+  .carousel-caption-1 {
+    padding: 0 0px 80px 0;
+  }
+  .carousel-caption-1 h1 {
+    padding-right: 30px;
+  }
+  .carousel-caption-3 {
+    padding: 0 0px 40px 0;
+  }
+  .carousel-caption-3 p {
+    padding-right: 100px;
+  }
+  /* BANNER END */
+
+  /* SERVICE STRT */
+  .service-img img {
+    width: 270px !important;
+  }
+  .service-sec h5 {
+    font-size: 13px;
+  }
+  .sub-head-2 ::after {
+    width: 170px;
+    left: 2px;
+  }
+  .sub-head-3 ::after {
+    width: 200px;
+    left: 8px;
+  }
+  .sub-head-4 ::after {
+    width: 145px;
+  }
+  /* SERVICE END */
+
+  /* TESTIMONIAL STRT */
+  .testimonial {
+    padding-bottom: 60px;
+  }
+  .testimonial-section {
+    padding: 20px 100px !important;
+  }
+  .content {
+    padding: 30px 0;
+  }
+  /* TESTIMONIAL END */
+
+  /* CONTACT US STRT */
+  .contact-col {
+    padding: 50px 40px;
+  }
+  .contact-col-3 {
+    padding: 45px 10px !important;
+  }
+  /* CONTACT US end */
+}
+
+/* EXTRA LARGE DEVICES (LARGE DESKTOPS, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* NAVIGATION-BAR STRT */
+  ul li {
+    padding-right: 40px;
+  }
+  /* NAVIGATION-BAR END */
+
+  /* BANNER STRT */
+  .carousel-indicators {
+    left: 850px !important;
+  }
+  .carousel-caption {
+    padding: 0px 0 120px 0px;
+    margin-left: -140px;
+  }
+  .carousel-caption-1 h1 {
+    padding-right: 30px;
+  }
+  .carousel-caption-3 {
+    padding: 0 310px 40px 0;
+  }
+  .carousel-caption-3 p {
+    padding-right: 100px;
+  }
+  /* BANNER END */
+
+  /* SERVICE STRT */
+  .service-sec h5 {
+    font-size: 15px;
+  }
+  .sub-head-2 ::after {
+    left: 2px;
+  }
+  .sub-head-3 ::after {
+    width: 200px;
+    left: 24px;
+  }
+  .sub-head-4 ::after {
+    width: 165px;
+  }
+  /* SERVICE END */
+
+  /* TESTIMONIAL STRT */
+  .content {
+    padding: 30px 50px;
+  }
+  /* TESTIMONIAL END */
+}
+
+/* EXTRA EXTRA LARGE DEVICES (LARGE DESKTOPS, 1400px and up) */
+@media (min-width: 1400px) {
+}

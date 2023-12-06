@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taxi Cab</title>
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <!-- FAVICON ICON  -->
+  <link rel="icon" type="image/x-icon" href="img/logo fav/logo_fav.png">
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <!-- NAVIGATION-BAR STRT -->
+  <header>
+    <!-- navigation-bar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container gx-0">
+        <!-- logo -->
+        <div class="nav_logo">
+          <a class="navbar-brand float-start" href="index.html"><img src="img/logo fav/logo_fav.png" alt="Taxi Cab" class="w-100" style="width: 100px !important;"></a>
+        </div>
+        <!-- hamburger menu -->
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#tccarousel"
+            aria-controls="tccarousel" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse menu" id="tccarousel">
+          <!-- navbar menu  -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feature">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#footer"><button type="button" class="nav_btn">Sign up</button></a>
+            </li>
+          </ul>
+          <!-- navbar btn  -->
+          <!-- <div class="navbar_btn">
+            <button type="button" class="nav_btn">
+              Sign up
+            </button>
+          </div> -->
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- NAVIGATION-BAR END -->
+
+  <!-- BANNER STRT -->
+  <section class="banner">
+    <div id="taxicarousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#taxicarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#taxicarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#taxicarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+         <!-- slider-1 -->
+        <div class="carousel-item active" data-bs-interval="2000">
+            <div class="overlay"></div>
+          <!-- text -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="carousel-caption">
+                  <h1>Ride in Style with Our <span>Taxi Cab Services.</span></h1>
+                  <p>Discover unparalleled comfort and convenience when you choose our premier taxi cab services. Whether you're a local looking for a reliable ride or a visitor eager to explore the city, our fleet of top-notch vehicles and professional drivers are at your service. With a commitment to punctuality and customer satisfaction, we ensure that every journey with us is not just a ride but an experience.</p>
+                  <a href="#contact"><button type="submit" class="nav_btn slider-btn">Book Your Ride</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- slider-2 -->
+        <div class="carousel-item carousel-item-2" data-bs-interval="3000">
+            <div class="overlay"></div>
+          <!-- text -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="carousel-caption carousel-caption-1">
+                  <h1><span>"Taxi Cab"</span> is the name of <span>Reliabilty.</span></h1>
+                  <p>Enjoy the luxury of a smooth and secure ride, as our skilled drivers navigate through the city, making sure you reach your destination safely and on time. Your comfort is our priority, and our meticulously maintained fleet guarantees a stylish and comfortable journey for every passenger.</p>
+                  <a href="#contact"><button type="submit" class="nav_btn slider-btn">Book Your Ride</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- slider-3 -->
+        <div class="carousel-item carousel-item-3" data-bs-interval="2000">
+            <div class="overlay"></div>
+          <!-- text -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="carousel-caption carousel-caption-3">
+                  <h1>Ride with Ease: Your Trusted <span>Taxi Cab Service.</span></h1>
+                  <p>Are you in search of a reliable, convenient, and safe taxi service? Look no further! Our fleet of modern, well-maintained taxis is at your service, ready to take you wherever you need to go. With experienced drivers, competitive rates, and a commitment to punctuality, we ensure your journey is comfortable and stress-free. Book your ride today and experience hassle-free transportation at its best!</p>
+                  <a href="#contact"><button type="submit" class="nav_btn slider-btn">Contact Us</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- BANNER END -->
+
+  <!-- ABOUT US STRT -->
+  <section class="about-us" id="about-us">
+    <div class="container">
+      <!-- common header -->
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12 common-heading">
+            <h1 class="mb-0">ABOUT US</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <!-- image  -->
+        <div class="col-lg-5 p-0">
+          <div class="abut-img">
+            <img src="img/about us/img-2.jpg" class="w-100" alt="Taxi Cab">
+          </div>
+        </div>
+        <!-- text  -->
+        <div class="col-lg-7 abut-txt">
+          <div>
+            <h3 class="sub-head mb-0"><span>Welcome to Taxi Cab</span></h3>
+            <p class="mb-0">We are a fully licensed and well-experienced Taxi Service Provider into England. No matter if you are an individual or a group of people, large or small, business or family, we are here to facilitate you with efficient, clean, and professional Taxi Services in Fort William (England). We are available 24 hours throughout the year. All of our drivers are highly trained and certified to maintain the premier standards for the passengers. 
+            <br><br>
+            We have a highly professional customer support team who are staying beside the clients. No matter where you are, we will reach you to drop you off at your destination. 
+            </p>
+            <button type="submit" class="nav_btn">LEARN MORE</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT US END -->
+
+  <!-- SERVICES STRT -->
+  <section class="service" id="service">
+    <div class="container">
+      <!-- common header -->
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12 common-heading">
+            <h1 class="mb-0">OUR SERVICES</h1>
+          </div>
+        </div>
+      </div>
+      <!-- service setion -->
+      <div class="row">
+        <!-- item-1  -->
+        <div class="col-lg-3 service-col text-center">
+          <div class="service-sec">
+            <!-- image -->
+            <div class="service-img">
+              <img src="img/service/plane.png" class="w-100" alt="Taxi Cab" style="border-radius: 10px;">
+            </div>
+            <!-- sub-heading -->
+            <h5 class="mb-0 sub-head sub-head-2"><span>Airport Transfer and Car Hire</span></h5>
+            <div class="sub-head"></div>
+            <!-- para -->
+            <p class="mb-0">We provide professional service to all the airports in England.</p>
+            <!-- service button -->
+            <button type="submit" class="nav_btn">Learn More</button>
+          </div>
+        </div>
+        <!-- item-2  -->
+        <div class="col-lg-3 service-col text-center">
+          <div class="service-sec">
+            <!-- image -->
+            <div class="service-img">
+              <img src="img/service/tour.png" class="w-100" alt="Taxi Cab" style="border-radius: 10px;">
+            </div>
+            <!-- sub-heading -->
+            <h5 class="mb-0 sub-head sub-head-2"><span>Guided Tours and Transport</span></h5>
+            <!-- para -->
+            <p class="mb-0">We have experienced Guide to assist the client in a professional manner.</p>
+            <!-- service button -->
+            <button type="submit" class="nav_btn">Learn More</button>
+          </div>
+        </div>
+        <!-- item-3  -->
+        <div class="col-lg-3 service-col text-center">
+          <div class="service-sec">
+            <!-- image -->
+            <div class="service-img">
+              <img src="img/service/hotel.png" class="w-100" alt="Taxi Cab" style="border-radius: 10px;">
+            </div>
+            <!-- sub-heading -->
+            <h5 class="mb-0 sub-head sub-head-3"><span>Door-To-Door Service to All Hotel</span></h5>
+            <!-- para -->
+            <p class="mb-0">Our Taxi will reach your door as per your requirement in hotel.</p>
+            <!-- service button -->
+            <button type="submit" class="nav_btn">Learn More</button>
+          </div>
+        </div>
+        <!-- item-4  -->
+        <div class="col-lg-3 service-col text-center">
+          <div class="service-sec">
+            <!-- image -->
+            <div class="service-img">
+  
+              <img src="img/service/b-b.png" class="w-100" alt="Taxi Cab" style="border-radius: 10px;">
+            </div>
+            <!-- sub-heading -->
+            <h5 class="mb-0 sub-head sub-head-4"><span>B&B Around Fort William</span></h5>
+            <!-- para -->
+            <p class="mb-0">Are you a traveler in England? Do you need a place for accomondation? </p>
+            <!-- service button -->
+            <button type="submit" class="nav_btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- SERVICES END -->
+
+  <!-- SPECIAL FEATURE STRT -->
+  <section class="feature" id="feature"">
+    <div class="container">
+      <!-- common heading -->
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12 common-heading">
+            <h1 class="mb-0">OUR SPECIAL FEATURES</h1>
+          </div>
+        </div>
+      </div>
+      <!-- feature sec strt -->
+      <div class="row">
+        <!-- item-1  -->
+        <div class="col-lg-4 service-col text-center">
+          <div class="service-sec">
+            <!-- image -->
+            <div class="service-img">
+              <img src="img/feature/review.png" class="w-100" alt="Taxi Cab" style="border-radius: 10px;">
+            </div>
+            <!-- sub-heading -->
+            <h5 class="mb-0 sub-head sub-head-2"><span>Reliable and Friendly Service</span></h5>
+            <div class="sub-head"></div>
+            <!-- para -->
+            <p class="mb-0">Our services are professional & every driver has their professional license.</p>
+            <!-- service button -->
+            <button type="submit" class="nav_btn">Learn More</button>
+          </div>
+        </div>
+        <!-- item-2  -->
+        <div class="col-lg-4 service-col text-center">
+          <div class="service-sec">
+            <!-- image -->
+            <div class="service-img">
+              <img src="img/feature/discount.png" class="w-100" alt="Taxi Cab" style="border-radius: 10px;">
+            </div>
+            <!-- sub-heading -->
+            <h5 class="mb-0 sub-head sub-head-3"><span>Good Discount May be Available</span></h5>
+            <!-- para -->
+            <p class="mb-0">Customers often seek discounts; in certain cases, we provide one for them.</p>
+            <!-- service button -->
+            <button type="submit" class="nav_btn">Learn More</button>
+          </div>
+        </div>
+        <!-- item-3  -->
+        <div class="col-lg-4 service-col text-center">
+          <div class="service-sec">
+            <!-- image -->
+            <div class="service-img pt-1">
+              <img src="img/feature/hire.png" class="w-100" alt="Taxi Cab">
+            </div>
+            <!-- sub-heading -->
+            <h5 class="mb-0 sub-head sub-head-2"><span>Long Run Hire for your business</span></h5>
+            <!-- para -->
+            <p class="mb-0">You can hire our Drivers and Cars for a month and more in a convenient way.</p>
+            <!-- service button -->
+            <button type="submit" class="nav_btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SPECIAL FEATURE END -->
+
+  <!-- TESTIMONIAL STRT -->
+  <section class="testimonial">
+    <div class="container">
+      <!-- common heading -->
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12 common-heading">
+            <h1 class="mb-0">OUR HAPPY CLIENTS REVIEW</h1>
+          </div>
+        </div>
+      </div>
+      <!-- testimonial -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="testimonial-section">
+            <h1 class="sub-head"><span>CLIENT’S TESTIMONIAL</span></h1>
+            <!-- Images -->
+            <div class="testimonial-pic">
+                <img class="active" src="img/testimonial/img-1.png" data-alt="tab1">
+                <img src="img/testimonial/img-2.png" data-alt="tab2">
+                <img src="img/testimonial/img-3.png" data-alt="tab3">
+                <img src="img/testimonial/img-4.png" data-alt="tab4">
+                <img src="img/testimonial/img-5.png" data-alt="tab5">
+                <img src="img/testimonial/img-6.jpg" data-alt="tab6">
+                <img src="img/testimonial/img-7.jpg" data-alt="tab7">
+            </div>
+            <!-- Testimonial Text -->
+            <div class="testimonial">
+              <!-- item-1 -->
+              <div class="content active" id="tab1">
+                <p>"Taking a taxi with Taxi Cab Services was an absolute game-changer for me! The driver was so friendly and professional, making the entire ride enjoyable. The car was spotless, and I felt safe throughout the journey. I can't recommend Taxi Cab enough for their excellent service. They've won me over as a loyal customer!"</p>
+                <p>Alom Bokkor, Satisfied Passenger</p>
+              </div>
+              <!-- item-2 -->
+              <div class="content" id="tab2">
+                <p>"Wow! Talk about convenience and reliability. I needed a quick ride to the airport, and Taxi Cab came to the rescue. The driver was punctual, the cab was clean, and the fare was reasonable. I couldn't have asked for a better experience. Taxi Cab, you've got my vote!"</p>
+                <p>Rubel Hassan, Happy Traveler</p>
+              </div>
+              <!-- item-3 -->
+              <div class="content" id="tab3">
+                <p>"Hats off to Taxi Cab Services for their top-notch customer service! The driver was courteous, knew the best routes, and even helped with my bags. The ride was smooth, and I arrived at my destination in no time. Taxi Cab Services exceeded my expectations, and I'll definitely be using their services again!"</p>
+                <p>Akram Khan, Delighted Commuter</p>
+              </div>
+              <!-- item-4 -->
+              <div class="content" id="tab4">
+                <p>"I was in a rush and needed a taxi ASAP. Enter Taxi Cab – a true lifesaver! The dispatcher was quick to respond, and the cab arrived promptly. The driver was friendly and got me to my destination on time. Thanks to Taxi Cab for being my go-to choice in those last-minute situations!"</p>
+                <p>Chris Alex, Grateful Customer</p>
+              </div>
+              <!-- item-5 -->
+              <div class="content" id="tab5">
+                <p>"I can't thank Taxi Cab enough for making my city explorations hassle-free! Their drivers are not just skilled behind the wheel but also know the ins and outs of the city. From recommending hidden gems to avoiding traffic, they've got it all covered. Clean cars, courteous drivers – Taxi Cab is my go-to for stress-free rides!"</p>
+                <p>Ali Akbar, City Explorer</p>
+              </div>
+              <!-- item-6 -->
+              <div class="content" id="tab6">
+                <p>"As a businessman, time is money, and Taxi Cab understands that perfectly. I've never had to worry about being late for a meeting since I started using their services. Punctual, reliable, and professional – that's Taxi Cab for you. They've become an indispensable part of my daily routine."</p>
+                <p>Shajan Mia, Always On Time</p>
+              </div>
+              <!-- item-7 -->
+              <div class="content" id="tab7">
+                <p>"Safety is my top priority, and that's why I trust Taxi Cab for all my rides. Their drivers are not only skilled but also prioritize safety. Clean cars, sanitized interiors, and adherence to all safety protocols – it's the kind of service that gives me peace of mind every time I step into one of their cabs. Taxi Cab, you've earned a loyal customer in me!"
+                </p>
+                <p>Shoyal Rana, Safety First</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TESTIMONIAL END -->
+
+  <!-- CONTACT US STRT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- first col -->
+        <div class="col-lg-4 contact-col">
+          <div class="contact-icon float-start">
+            <span><i class="bi bi-envelope-at"></i></span>
+            <div class="text float-end">
+              <h5>Email Address</h5>
+              <p class="mb-0"></h4>
+                <a href="#">taxicab@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <!-- second col -->
+        <div class="col-lg-4 contact-col">
+          <div class="contact-icon float-start">
+            <span><i class="bi bi-telephone-fill"></i></span>
+            <div class="text float-end">
+              <h5>Phone Number</h5>
+              <p class="mb-0">07555 000000</p>
+            </div>
+          </div>
+        </div>
+        <!-- third col -->
+        <div class="col-lg-4 contact-col contact-col-3">
+          <div class="contact-icon float-start">
+            <span><i class="bi bi-geo-alt-fill"></i></span>
+            <div class="text float-end">
+              <h5>Full address</h5>
+              <p class="mb-0 para-3">Test Gloria POSTCODE PH11 456, <br>  ENGLAND (U.K)
+                </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT US END -->
+
+  <!-- FOOTER STRT -->
+  <section class="footer" id="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 footer-left">
+          <!-- image -->
+          <div class="icon">
+            <a href="#"><img src="img/logo fav/logo_fav.png" alt="Taxi Cab" class="w-100" style="width: 200px !important;"></a>
+          </div>
+          <!-- text -->
+          <p>Reliable, prompt, and courteous taxi service. Efficient transportation, skilled drivers, and a commitment to customer satisfaction. Your journey, our priority.</p>
+          <!-- social icons -->
+          <div class="footer-social">
+            <ul>
+              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="#"><i class="bi bi-messenger"></i></a></li>
+              <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="footer-form">
+            <h2>NEWSLETTER</h2>
+            <form>
+              <div class="mb-3">
+                <label for="tc-footer-form" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="tc-footer-form" aria-describedby="emailHelp">
+              </div>
+              <button type="submit" class="btn nav_btn footer-btn">Subscribe Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER END -->
+
+  <!-- COPY WRITE STRT -->
+  <section class="copy-write">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <div class="cw">
+            <h6 class="mb-0">Copyright 2023 Taxi Cab All Rights Reserved | <a href="#">Abdur Rob</a></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- COPY WRITE END -->
+
+  <!-- JS + JQ LINK's -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
